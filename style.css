@@ -33,7 +33,19 @@ p{
     color:white;
     height: 60px;
 }
+.navbar2 {
+    color:black;
+    height: 800px;
+}
 .navbar .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+
+}
+.navbar2 .container{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -46,9 +58,22 @@ p{
     flex-direction: row;
     list-style-type: none;
 }
+.navbar2 ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
 
 .navbar ul li{
     margin-left: 20px;
+}
+
+.navbar2 ul li{
+    margin-left: 100px;
+}
+
+.navbar2 ul li:first-child {
+    margin-left: 0;
 }
 
 .navbar .logo{
@@ -63,11 +88,16 @@ p{
     font-size: 18px;
     font-weight: bold;
 }
+.navbar2 a {
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+}
 
 .navbar a:hover{
     border-bottom: 2px white solid;
     color: aliceblue;
-
 }
 
 button{
@@ -82,4 +112,23 @@ button{
 button:hover {
     background-color: yellow;
     color: red;
+}
+#text{
+    color: black;
+}
+
+#color1{
+    background-color: blue;
+    color: white;
+}
+#color2{
+    background-color: black;
+    color: white;
+}
+#color3{
+    background-color: green;
+    color: white;
+}
+#color4{
+    background-color: white;
 }
